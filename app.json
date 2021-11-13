@@ -1,0 +1,12 @@
+{
+  "name": "VicValet",
+  "displayName": "VicValet",
+  "expo": {
+    "name": "VicValet",
+    "slug": "VicValet",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
