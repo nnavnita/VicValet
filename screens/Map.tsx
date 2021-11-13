@@ -11,8 +11,8 @@ export default function Map() {
                 region={{
                     latitude: -37.814834,
                     longitude: 144.940051,
-                    latitudeDelta: 0.005,
-                    longitudeDelta: 0.005,
+                    latitudeDelta: 0.001,
+                    longitudeDelta: 0.001,
                 }}
                 showsUserLocation={true}
                 followsUserLocation={true}

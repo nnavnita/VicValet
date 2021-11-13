@@ -1,11 +1,15 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, TextInput } from 'react-native';
 import Map from "./screens/Map";
+import SearchBar from "./screens/SearchBar";
 
 export default function App() {
+  const [text, onChangeText] = React.useState("");
+
   return (
     <View style={styles.container}>
       <Map />
+      <SearchBar />
     </View>
   );
 }
