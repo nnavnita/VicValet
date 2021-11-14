@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, TextInput } from 'react-native';
-import Map from "./screens/Map";
-import SearchBar from "./screens/SearchBar";
+import Map from "./components/Map";
+import SearchBar from "./components/SearchBar";
 
 export default function App() {
   const [text, onChangeText] = React.useState("");

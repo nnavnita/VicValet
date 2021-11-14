@@ -1,0 +1,2 @@
+export const AVAILABLE_BAYS: string = 'https://data.melbourne.vic.gov.au/resource/vh2v-4nfs.json?$limit=5000';
+export const BAY_SHAPES: string = 'https://data.melbourne.vic.gov.au/api/views/wuf8-susg/rows.json?accessType=DOWNLOAD';
