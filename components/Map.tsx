@@ -11,7 +11,7 @@ function getCoOrdsFromMP(mp: any): any {
             .replace('MULTIPOLYGON (((', '')
             .replace(')))', '');
         let ca: string[] = c.split(',');
-        let caa: any = ca.map(e => {
+        ca.forEach(e => {
             let c = e.split(' ');
             coord.push({
                 'latitude': Number(c[0]),
